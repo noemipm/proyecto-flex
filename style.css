@@ -1,0 +1,53 @@
+
+.container {
+	max-width: 960px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+header {
+	padding: 8px 9px;
+	text-align: center;
+	background-color:#FF653D;
+	height: 50px;
+
+align-items: flex-start;
+}
+
+.flex {
+	text-align: center;
+	display:flex;
+	flex-wrap: row;
+	width: 100%;
+	align-items: stretch;
+	height: 500%;
+}
+#caja1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+width: 30%;
+	background-color: yellow;
+	
+}
+#caja2 { background-color:blue;
+width:50%; }
+#caja3 {
+background-color:pink;
+width: 30%;
+}
+
+
+footer {
+	text-align: center;
+	background-color:#92EE83;
+	height: 50px;
+	justify-content: flex-end;
+padding: 8px 9px;
+
+
+}
+
+.pietexto {
+text-align: center;}
